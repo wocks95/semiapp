@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');      
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+
+
+
+.front-list {
+  margin-top: 10px;
+}
+.front-list h1 {
+  font-size: 28px;
+  color: #333333;
+  font-weight: 400;
+  text-align: center;
+}
+.front-list h1 {
+  text-align: center;
+}
+.btn-right {
+  display: flex;
+}
+.btn-right #btn-notice {
+  display: inline-block;
+  font-size:15px;
+  font-weight: 400;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.btn-right #btn-notice {
+  background: #555;
+  color: #fff;
+}
+.btn-notice:hover, .btn-notice:focus {
+  background: #373737;
+  border-color: #373737;
+  color: #fff;
+}
+.btn-right #btn-search {
+  display: inline-block;
+  font-size:15px;
+  font-weight: 400;
+  background: transparent;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.btn-right #btn-search {
+  background: #555;
+  color: #fff;
+
+}
+.btn-right .btn-search:hover, .btn-right .btn-search:focus {
+  background: #373737;
+  border-color: #373737;
+  color: #fff;
+}
+.sort-toCol {
+  display: flex;
+  margin-top: 10px;
+}
+.sort-toCol .title-list{
+ 
+}
+.btn-sort {
+  display: inline-block;
+  font-size:15px;
+  font-weight: 400;
+  background: transparent;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background: #555;
+  color: #fff;
+  
+}
+
+.sort-toCol .title-count {
+  margin-left: 10px;
+}
+.total-list {
+  font-size: 13px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.total-list th {
+  text-align: center;
+}
+.total-list .th-num {
+  width: 100px;
+  text-align: center;
+}
+.total-list .th-file {
+  width: 100px;
+  text-align: center;
+}
+.total-list .th-date {
+  width: 200px;
+  text-align: center;
+}
+.total-list .th-mod {
+  width: 200px;
+  text-align: center;
+}
+.total-list th, .total-list td {
+  padding: 14px 0;
+}
+.total-list tbody td {
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+}
+.total-list tbody th {
+  padding-left: 28px;
+  padding-right: 14px;
+  border-top: 1px solid #e7e7e7;
+  text-align: left;
+}
+.total-list tfoot td {
+  border-top: 1px solid #e7e7e7;
+}
+.notices .not-title {
+  color: #333;
+  line-height: 1.4;
+  word-break: break-all;
+  vertical-align: middle;
+  font-weight: 400;
+
+}
+.notices .not-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
