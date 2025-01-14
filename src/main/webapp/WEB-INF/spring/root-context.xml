@@ -10,9 +10,9 @@
   <!-- HikariCP : HikariConfig + HikariDataSource -->
   <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
     <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-    <property name="jdbcUrl"  value="jdbc:mysql://13.124.161.31:3306/db_semi?serverTimezone=Asia/Seoul"/>
-    <property name="username" value="root"/>
-    <property name="password" value="root"/>
+    <property name="jdbcUrl"  value="jdbc:mysql://192.168.10.113:3306/db_semi?serverTimezone=Asia/Seoul"/>
+    <property name="username" value="greenit"/>
+    <property name="password" value="greenit"/>
   </bean>
   
   <bean id="hikariDataSource" class="com.zaxxer.hikari.HikariDataSource">

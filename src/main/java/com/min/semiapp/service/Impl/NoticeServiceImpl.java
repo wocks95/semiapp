@@ -130,8 +130,8 @@ public class NoticeServiceImpl implements INoticeService {
 
   @Override
   public String removeNotice(int noticeId) {
+    
     for(AttachDto attachDto : noticeDao.selectAttachListByNoticeId(noticeId)) {
-      
       File file = new File(attachDto.getFilePath(), attachDto.getFilesystemName());
       if(file.exists())
         file.delete(); 
@@ -225,7 +225,7 @@ public class NoticeServiceImpl implements INoticeService {
 
   @Override
   public String modifyNotice(NoticeDto noticeDto, MultipartHttpServletRequest mutlipartRequest) {
-    // return noticeDao.modifyNotice(noticeDto) == 1 ? "공지사항 수정 성공" : "공지사항 수정 실패";
+    
     int result = noticeDao.modifyNotice(noticeDto);
     if(result == 0)
        return "공지사항 수정 실패";
